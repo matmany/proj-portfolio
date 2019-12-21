@@ -1,0 +1,132 @@
+
+@media screen and (min-width: 430px) {
+  .head-title {
+    font-size: 3em;
+  }
+
+  .head-img {
+    width: 80px;
+  }
+
+  .sec-learn {
+    width: 50%;
+  }
+
+  .article-learn {
+    position: inherit;
+    float: left;
+  }
+
+  .head-icon {
+      font-size: 45px;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+  .article-news {
+    width: 50%;
+    max-width: 425px;
+  }
+
+  .sec-new {
+    width: 50%;
+    order: -2;
+  }
+
+  .sec-news {
+    width: 50%;
+    order: -1;
+  }
+
+  .sec-forum {
+    width: 50%;
+    order: -1;
+  }
+
+  .forum-text {
+    -webkit-line-clamp: 2;
+  }
+
+}
+
+@media screen and (max-width: 549px) {
+  .head-icon {
+    visibility: visible;
+  }
+
+  .navegation {
+    z-index: 10;
+    background-color: #58FF88;
+    width: 200px;
+    height:auto;
+    position: absolute;
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    transition: transform 0.3s ease;
+    border-top: 2px solid #37003D;
+  }
+
+  .navegation.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .nav-list {
+    margin-left: auto;
+  }
+
+  .nav-item {
+    display:  list-item;
+    border-bottom: 2px solid #37003D;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .forum-text {
+    -webkit-line-clamp: 3;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .head-div, .navegation {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+  }
+
+  .title-learn, .title-comp {
+    width: 50%;
+    order: 0;
+  }
+
+  .sec-learn {
+    width: 50%;
+  }
+
+  .learn-cpp, .learn-arduino {
+    order: 2;
+  }
+
+  .learn-java, .learn-rasp {
+    order: 4;
+  }
+
+  .learn-python, .learn-kinect {
+    order: 5;
+  }
+
+  .learn-sharp {
+    order: 6;
+  }
+}
